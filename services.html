@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website With Login & Registration | Codehal</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+</head>
+
+<body>
+        <section class="about-sec">
+            <section class="SCT">
+                <div class="SCTD">
+                    <h1 class="nad1">
+                        Wolf
+                    </h1>
+                </div>
+            </section>
+        
+            <div class="jdp">
+
+                <h2 class="nad2">
+                    jdp
+                </h2>
+                  <div class="pe">
+                    
+                    <p>
+                       Jestli se ti neco nelibi JDP
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+
+
+    <header>
+        
+        <a href="login.html">
+            <img src="Wolf.svg" alt="Wolf" class="logo" id="logo">
+        </a> 
+        
+
+        <nav class="navigation">
+        <a href="home.html">Home</a> 
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a class="btnContact">Contact</a>
+
+        <button class="btnLogin-popup">Login</button>
+    </nav>
+    </header>
+
+    <div class="wrapper">
+        <span class="icon-close">
+            <ion-icon name="close"></ion-icon>
+        </span>
+
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div> 
+
+                
+                <!-- to s tema ikonama password -->
+                <div class="input-box">
+                    <span class="icon">
+                        
+                        <div class="hidden-shown">
+                        <ion-icon name="eye-outline" class="hidden" id="hiddenpass"></ion-icon>
+                        <ion-icon name="eye-off-outline" id="shownpass"></ion-icon>  
+                        <ion-icon name="lock-closed" class="lock-icon"></ion-icon>
+                        </div>
+                        
+                    </span>
+                    <input type="password" id="loginPassword" required>
+                    <label>Password</label>
+                
+                </div> 
+
+               
+                <div class="remember-forgot">
+                    <label><input type="checkbox"> Remember me</label>
+                    <a href="#">Forgot Password</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="login-register">
+                    <p>Dont't have an account? <a href="#" class="register-link"> Register </a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div> 
+
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="tel" required>
+                    <label>Username</label>
+                </div> 
+
+                <!-- to s tema ikonama -->
+                <div class="input-box">
+                    <span class="icon">
+                       
+                        <div class="hidden-shown">
+                        <ion-icon name="eye-outline" class="hidden" id="hiddenpassR"></ion-icon>
+                        <ion-icon name="eye-off-outline" id="shownpassR" ></ion-icon>  
+                        <ion-icon name="lock-closed" class="lock-icon"></ion-icon>
+                        </div>
+                       
+                    </span>
+                    <input type="password" id="loginPasswordR" required>
+                    <label>Password</label>
+                
+                </div> 
+
+                <div class="remember-forgot">
+                    <label><input type="checkbox"> Agree to the terms & conditions</label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p>Alredy have an account? <a href="#" class="login-link"> Login </a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- contact -->
+    <div class="Contact">  
+
+        <span class="icon-close-con"><ion-icon name="close"></ion-icon></span>
+
+    <form action="#">
+           
+        <h2 class="Contact-contact">Contact:</h2> 
+
+        <h3>
+            
+            <span class="icon"><ion-icon name="person-circle" class="contact-icon"></ion-icon></span>
+            <span class="contact-name">Nathan Brokeš</span>
+        </h3>
+        
+        <h3>
+            <span class="icon"><ion-icon name="mail" class="contact-icon"></ion-icon></span>
+            <span class="contact-email">brokes.nathan@gmail.com</span>
+        </h3> 
+        
+    </form>
+          
+               
+    </div> 
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="login.js"></script>
+    <script src="home.js"></script>
+
+    <script>
+        
+    </script>
+
+</body>
+</html>
