@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website With Login & Registration | Codehal</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+    <section class="about-sec">
+        <section class="SCT">
+            <div class="SCTD">
+                <h1 class="nad1">
+                    Wolf
+                </h1>
+            </div>
+        </section>
+
+        <div class="vznik a vlada">
+
+            <h2 class="nad2">
+                Vznik a vláda Fenrise
+            </h2>
+
+                <div class="pe">
+                    <p>
+                        V dávných dobách, kdy byl svět ještě mladý a plný tajemství, se zrodil Fenris, první a nejmocnější z
+                        vlků.
+                        Podle starých legend byl Fenris stvořen z hvězdného prachu a měsíčního svitu samotnou bohyní přírody,
+                        Eirou.
+                        Ta ho povolala do světa, aby chránil rovnováhu mezi všemi bytostmi a přírodou.
+                    </p>
+
+                    <p>
+                        Fenris měl srst stříbrnou jako světlo měsíce a oči, které zářily jako dvě hvězdy na noční obloze.
+                        Byl obdařen moudrostí starou jako čas sám a silou, kterou mu mohli závidět i bohové. Jeho posláním bylo
+                        střežit lesy a hory,
+                        zajistit, aby žádná temná síla nenarušila křehkou rovnováhu přírody.
+                    </p>
+
+                    <p>
+                        Když přišel čas, Fenris se stal králem všech vlků. Jeho vláda byla spravedlivá a moudrá.
+                        Vedl svou smečku s odvahou a laskavostí, učil je tajemstvím lesa a magie, které mu předala Eira.
+                        Pod jeho vedením vlci vzkvétali a jejich království se stalo útočištěm pro všechny bytosti, které
+                        hledaly ochranu před zlem.
+                    </p>
+
+                    <p>
+                        Jednoho dne se z hlubin země vynořila temná hrozba, bytost známá jako Nidhogg,
+                        který chtěl pohltit svět do věčné noci. Fenris věděl, že musí čelit této hrozbě,
+                        aby ochránil svůj lid a jejich domov. Svolal svou smečku a připravil se na bitvu,
+                        která rozhodne o osudu světa.
+                    </p>
+
+                    <p>
+                        V krvavé bitvě, která trvala celé dny a noci, se Fenris postavil Nidhoggovi.
+                        S odvahou a silou, kterou mu poskytla příroda, se mu podařilo zahnat temnotu zpět do jejího doupěte.
+                        Ale věděl, že jeho boj nekončí. Jako strážce lesa a ochránce rovnováhy zůstane navždy bdít nad světem,
+                        připraven čelit jakékoliv hrozbě.
+                    </p>
+
+                    <p>
+                        A tak Fenris vládne dál, jeho příběh se předává z generace na generaci jako připomínka toho,
+                        že v srdci každého vlka spočívá odvaha a síla čelit temnotě, aby chránil svůj domov a své blízké.
+                    </p>
+                    
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+    <header>
+
+        <a href="login.html">
+            <img src="Wolf.svg" alt="Wolf" class="logo" id="logo">
+        </a>
+
+
+        <nav class="navigation">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a class="btnContact">Contact</a>
+
+            <button class="btnLogin-popup">Login</button>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <span class="icon-close">
+            <ion-icon name="close"></ion-icon>
+        </span>
+
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+
+
+                <!-- to s tema ikonama password -->
+                <div class="input-box">
+                    <span class="icon" >
+                        
+
+                        <div class="hidden-shown">
+
+                            <ion-icon name="lock-closed" class="lock-icon"></ion-icon>
+                            <ion-icon name="eye-outline" class="hidden" id="hiddenpass"></ion-icon>
+                            <ion-icon name="eye-off-outline" id="shownpass" class="shown"></ion-icon>
+                        </div>
+
+                        
+
+                    </span>
+                    <input type="password" id="loginPassword" required>
+                    <label>Password</label>
+
+                </div>
+
+
+                <div class="remember-forgot">
+                    <label><input type="checkbox"> Remember me</label>
+                    <a href="#">Forgot Password</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="login-register">
+                    <p>Dont't have an account? <a href="#" class="register-link"> Register </a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="tel" required>
+                    <label>Username</label>
+                </div>
+
+                <!-- to s tema ikonama -->
+                <div class="input-box">
+
+                    <span class="icon" > 
+                                              
+
+                        <div class="hidden-shown">
+
+                            <ion-icon name="lock-closed" class="lock-icon"></ion-icon>
+                            <ion-icon name="eye-outline" class="hidden" id="hiddenpassR"></ion-icon>
+                            <ion-icon name="eye-off-outline" id="shownpassR" class="shown"></ion-icon>
+                           
+                        </div>
+
+                        
+
+                    </span>
+                    <input type="password" id="loginPasswordR" required>
+                    <label>Password</label>
+
+                </div>
+
+                <div class="remember-forgot">
+                    <label><input type="checkbox"> Agree to the terms & conditions</label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p>Alredy have an account? <a href="#" class="login-link"> Login </a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- contact -->
+    <div class="Contact">
+
+        <span class="icon-close-con"><ion-icon name="close"></ion-icon></span>
+
+        <form action="#">
+
+            <h2 class="Contact-contact">Contact:</h2>
+
+            <h3>
+
+                <span class="icon"><ion-icon name="person-circle" class="contact-icon"></ion-icon></span>
+                <span class="contact-name">Nathan Brokeš</span>
+            </h3>
+
+            <h3>
+                <span class="icon"><ion-icon name="mail" class="contact-icon"></ion-icon></span>
+                <span class="contact-email">brokes.nathan@gmail.com</span>
+            </h3>
+
+        </form>
+
+
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="login.js"></script>
+    <script src="home.js"></script>
+
+    <script>
+
+    </script>
+
+</body>
+
+</html>
